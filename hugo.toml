@@ -1,0 +1,18 @@
+theme = 'hugo-theme-relearn'
+baseURL = 'https://example.org/'
+languageCode = 'en-us'
+title = 'Mobius 3 Reference'
+[params]
+collapsibleMenu = true
+#themeVariant='neon'
+
+[menu]
+  [[menu.shortcuts]]
+    name = 'User Forum'
+    url = 'https://mobiuslooper.com/forum/public'
+    weight = 1
+
+  [[menu.shortcuts]]
+    name = 'Github Repository'
+    url = 'https://github.com/mobius-looper/doc-reference'
+    weight = 2
